@@ -1,17 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .topnav{
     display: flex;
     background-color: white;
     height: 9%;
     align-items:center;
     justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
    
 }
 .topnav a{
  text-decoration: none;
  color: black;
 }
-.topnav img{
-    width:10%;
+.halfnav1 img{
+    width:14%;
 }
 .halfnav1{
   display: flex;
@@ -42,11 +48,34 @@
     gap:15%;
    
 }
-.image{
+.image {
     width: 50%;
 }
+
 .content{
     width:50%;
     margin-top:12%;
 
+}
+.icons{
+    display:flex;
+    margin-top: 4%;
+    gap:17px;
+    justify-content: center;
+}
+.icon{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap:10px;
+}
+.icon1 img{
+    width: 20%;
+  
+}
+.cards{
+    display:flex;
+    gap:2%;
+    margin-top: 3%;
 }
