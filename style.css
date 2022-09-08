@@ -1,0 +1,52 @@
+.topnav{
+    display: flex;
+    background-color: white;
+    height: 9%;
+    align-items:center;
+    justify-content: space-between;
+   
+}
+.topnav a{
+ text-decoration: none;
+ color: black;
+}
+.topnav img{
+    width:10%;
+}
+.halfnav1{
+  display: flex;
+  gap : 15px;
+   
+}
+.halfnav2{
+   display: flex;
+   gap: 15px;
+}
+.secondbar{
+    background-color: #0067b8;
+    height: 9%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+
+.button_1{
+    background-color: #0067b8;
+    color: white;
+}
+.landpage{
+    display: flex;
+    gap:15%;
+   
+}
+.image{
+    width: 50%;
+}
+.content{
+    width:50%;
+    margin-top:12%;
+
+}
