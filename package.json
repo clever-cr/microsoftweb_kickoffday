@@ -1,0 +1,26 @@
+{
+  "name": "microsoft_edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clever-cr/microsoftweb_kickoffday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clever-cr/microsoftweb_kickoffday/issues"
+  },
+  "homepage": "https://github.com/clever-cr/microsoftweb_kickoffday#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.9",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.0"
+  }
+}

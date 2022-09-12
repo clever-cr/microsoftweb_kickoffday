@@ -1,15 +1,29 @@
 <html>
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link href="build/tailwind.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="topnav">
-   
-      <div class="halfnav1">
-        <img
-        src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-      />
-        <a href="#"> Microsoft</a>
+    <!-- <div class="flex  bg-white items-center p-2  "> -->
+      <div class="flex justify-between items-center space-x-2 w-full md:hidden ">
+        <div class="flex space-x-2 text-gray-400">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+       <div class="w-20">
+        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31">
+       </div>
+       <div class="flex space-x-2 text-gray-400">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
+       </div>
+        
+      </div>
+      <div class="hidden md:flex  items-center justify-between p-5 ">
+        <div class="flex items-center gap-6 ">
+        <img class="w-20"
+          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+        />
+        <a  href="#"> Microsoft</a>
         <a href="#"> Microsoft 365</a>
         <a href="#"> teams </a>
         <a href="#"> surface</a>
@@ -19,127 +33,141 @@
         <a href="#"> support</a>
       </div>
 
-      <div class="halfnav2">
+      <div class="hidden md:flex gap-4">
         <a href="#"> allmicrosoft</a>
         <a href="#"> search</a>
         <a href="#"> signin</a>
       </div>
     </div>
+     
 
-    <div class="secondbar">
+    <div class="bg-blue-700 text-white flex items-center justify-center p-3">
       <p>
         Students, parents, and educators: Take up to 10% off* select tech,
         including select Surface. Shop now
       </p>
     </div>
-    <div class="landpage">
-      <div class="image">
-        <img
-          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Surface-Family-Platinum-Windows-11:VP5-1920x600"
-        />
-      </div>
 
-      <div class="content">
-        <h2><b> Save on Surface</b></h2>
-        <p>
-          Find a great deal on select Surface devices built for all the ways you
-          create, work, play, and connect. If you have questions before you buy
+    <div class="flex flex-wrap bg-gray-100 justify-between  gap-11 sm:items-center">
+      <div>
+        <img class="sm:max-w-fit"
+        src="Highlight-Surf-Bundles-Laptop-Go-2-Ice-Blue-Mouse-Complete_VP1-539x440.jpeg"
+      />
+      </div>
+      
+      <div class=" justify-end w-2/6  space-y-2 sm:mb-28  ">
+        <h2 class="text-2xl "><b> Save on Surface</b></h2>
+        <p class="text-sm ">
+          Find a great deal on select Surface devices built <br>for all the ways you
+          create, work, play, and connect.<br> If you have questions before you buy
           a Surface, book a free shopping appointment.
         </p>
-        <button class="button_1">Shop surface deals</button>
-        <a href="#"> Book an appointment ></a>
+        <button class="bg-blue-700 text-white p-1 mr-2 rounded-sm ">
+          Shop surface deals
+        </button>
+        <a class="text-blue-700 " href="#"> Book an appointment > </a>
       </div>
     </div>
 
-    <div>
-      <div class="icons">
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40"
-          />
-          <a href="#">Choose your Microsoft 365</a>
-        </div>
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-surface-kickstand-120x120?wid=40&hei=40"
-          />
-          <a href="#">Shop Surface devices</a>
-        </div>
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-xbox-logo-120x120?wid=40&hei=40"
-          />
-          <a href="#">Buy Xbox games and consoles</a>
-        </div>
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Book_Icon_40x40?wid=40&hei=40"
-          />
-          <a href="#">Shop for students</a>
-        </div>
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/QuickLink-Laptop-40x40?wid=40&hei=40"
-          />
-          <a href="#">find your next pc</a>
-        </div>
-        <div class="icon">
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-briefcase-120x120?wid=40&hei=40"
-          />
-          <a href="#">Shop Business</a>
-        </div>
+    <div class=" flex flex-wrap justify-center p-6 space-x-4">
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">Choose your Microsoft 365</a>
       </div>
-      <div class="cards">
-        <card>
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CP-02-Pro8-Platinum-BnrCntrl?wid=380&hei=213&fit=crop"
-          />
-          <h2>Surface Pro 8 (i5) + Surface Pro Keyboard</h2>
-          <p>
-            Complete your study setup and save big when you bundle the most
-            powerful Pro with a sleek, compact Surface keyboard. Select devices
-            starting at $899.99.
-          </p>
-          <a href="#">Shop now ></a>
-        </card>
-        <card>
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CP-02-Pro8-Platinum-BnrCntrl?wid=380&hei=213&fit=crop"
-          />
-          <h2>Select Surface Go 3, up to $70 off</h2>
-          <p>
-            Optimized for student needs—note-taking, sketching, Windows 11, and
-            more. Starting at $479.99.
-          </p>
-          <a href="#">Shop Surface Go 3 ></a>
-        </card>
-        <card>
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-NBA-2K23-KeyArt?wid=380&hei=213&fit=crop"
-          />
-          <h2>NBA 2K23</h2>
-          <p>
-            SRise to the occasion and realize your full potential in NBA 2K23.
-            How will you Answer The Call?
-          </p>
-          <a href="#">Shop NBA 2K23 now ></a>
-        </card>
-        <card>
-          <img
-            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Xbox-Elite-Controller-Series-2-Core-White?wid=380&hei=213&fit=crop"
-          />
-          <h2>Play like a pro</h2>
-          <p>
-            Experience the Xbox Elite Wireless Controller Series 2–Core in
-            white.
-          </p>
-          <a href="#">Shop now ></a>
-        </card>
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-surface-kickstand-120x120?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">Shop Surface devices</a>
+      </div>
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-xbox-logo-120x120?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">Buy Xbox games and consoles</a>
+      </div>
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Book_Icon_40x40?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">Shop for students</a>
+      </div>
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/QuickLink-Laptop-40x40?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">find your next pc</a>
+      </div>
+      <div class="icon">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-briefcase-120x120?wid=40&hei=40"
+        />
+        <a class="text-blue-700" href="#">Shop Business</a>
       </div>
     </div>
-    <div class="saveup">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
+      <card>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CP-02-Pro8-Platinum-BnrCntrl?wid=380&hei=213&fit=crop"
+        />
+        <h2 class=""><b>Surface Pro 8 (i5) + Surface Pro Keyboard</b></h2>
+        <p>
+          Complete your study setup and save big when you bundle the most
+          powerful Pro with a sleek, compact Surface keyboard. Select devices
+          starting at $899.99.
+        </p>
+        <a class="text-blue-700" href="#">Shop now ></a>
+      </card>
+      <card>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/CP-02-Pro8-Platinum-BnrCntrl?wid=380&hei=213&fit=crop"
+        />
+        <h2><b>Select Surface Go 3, up to $70 off</b></h2>
+        <p>
+          Optimized for student needs—note-taking, sketching, Windows 11, and
+          more. Starting at $479.99.
+        </p>
+        <a class="text-blue-700" href="#">Shop Surface Go 3 ></a>
+      </card>
+      <card>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-NBA-2K23-KeyArt?wid=380&hei=213&fit=crop"
+        />
+        <h2><b>NBA 2K23</b></h2>
+        <p>
+          SRise to the occasion and realize your full potential in NBA 2K23. How
+          will you Answer The Call?
+        </p>
+        <a class="text-blue-700" href="#">Shop NBA 2K23 now ></a>
+      </card>
+      <card>
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Xbox-Elite-Controller-Series-2-Core-White?wid=380&hei=213&fit=crop"
+        />
+        <h2><b>Play like a pro</b></h2>
+        <p>
+          Experience the Xbox Elite Wireless Controller Series 2–Core in white.
+        </p>
+        <a class="text-blue-700" href="#">Shop now ></a>
+      </card>
+    </div>
 
-    </div>
+    <!-- <div class="saveup">
+      <div class="saveupcontent">
+        <h2>Save up to $500 on select PCs</h2>
+        <p>
+          Discover great deals on powerful devices to help you study smarter and
+          relax after class Shop PC deals
+        </p>
+        <button>Shop PC deals</button>
+      </div>
+      <div class="saveupimage">
+        <img
+          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-8SGB4NHFCQ27-VM600821-Lenovo-IdeaPad-5Pro-Laptop-HighlightHero:VP5-1596x600"
+        />
+      </div>
+    </div> -->
   </body>
 </html>
